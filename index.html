@@ -4,12 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="./assets/javascript/game.js"></script>
+    
     <title>Document</title>
 </head>
 
-<h1>Crystal Collector</h1>
+<h1><center><u>CRYSTAL COLLECTOR</u></center></h1>
 
 <body>
+
+<h1><center>Welcome!</h1></center>
+<!-- Short introduction to potential players -->
+<p><center>You have agreed to play our guessing game <q><em><u>Crystal Collector.</u></em></q></center> 
+<p><center>This game is similar to a word guessing game; however, you will be guessing <mark><em><strong>Numbers</strong></em></mark> instead of letters!</p></center>
+
+<!-- Share brief directions of the game to intice and lure players to play -->
+<h2><strong>Directions:</strong></h2>
+
+<p><em>- Four crystals will display as buttons on the page near the bottom.</em></p>
+<p><em>- You, the player will be given/shown a random number at the official start of the game.</em></p>
+<p><em>- When you click on a crystal, it will add a specific amount of points to your total score.</em></p> 
+
+<h3>Heads Up!</h3>
+
+<p>You win if your total score matches the random number from the beginning of the game!!</p> 
+
+<p>However, you loose if your score goes above the original random number...sorry.</p>
+
+<h4><strong>Please Click</strong></h4>
+
+<!-- Add clicking sound to each event -->
+<button class="button playSound">Crystal1</button>
+<button class="button playSound">Crystal2</button>
+<button class="button playSound">Crystal3</button>
+<button class="button playSound">Crystal4</button>
+
+<!-- Add buttons on side vertically -->
+
+<div id="relative">
+<div id="mySidenav" class="sidenav">
+        <a href="#" id="randomNum">Random</a>
+        <a href="#" id="wins">Wins</a>
+        <a href="#" id="losses">Losses</a>
+        <a href="#" id="totScore">Score</a>
+      </div>
+    </div>
     
 </body>
 </html>
+
+
+
+
+
+<!-- http://soundbible.com/grab.php?id=2185&type=mp3  old school bell  score
+
+
+http://soundbible.com/grab.php?id=2206&type=mp3 toll bell loss
+
+http://soundbible.com/grab.php?id=2197&type=mp3  alarm watch random 
+
+http://soundbible.com/2153-Crazy-Bizarre-Guitar.html  guitar win -->
